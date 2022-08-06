@@ -352,10 +352,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.14.53.tgz#251b4cd6760fadb4d68a05815e6dc5e432d69cd6"
   integrity sha512-W2dAL6Bnyn4xa/QRSU3ilIK4EzD5wgYXKXJiS1HDF5vU3675qc2bvFyLwbUcdmssDveyndy7FbitrCoiV/eMLg==
 
-"@fontsource/jost@^4.5.10":
-  version "4.5.10"
-  resolved "https://registry.yarnpkg.com/@fontsource/jost/-/jost-4.5.10.tgz#3791f12003b5ba8bc360edd4ed9c266aa6183841"
-  integrity sha512-Zi1zNrtUUk8c3yxEhxhJkHg4xQEqMtlYeXk0F0kix7QrmYBtEC7OYSIJPfRD/5gRqF95Mdc2fIkvVWgaHCI5eQ==
+"@fontsource/alex-brush@^4.5.4":
+  version "4.5.7"
+  resolved "https://registry.yarnpkg.com/@fontsource/alex-brush/-/alex-brush-4.5.7.tgz#7254a2cb66633d259a068912aec637ab257d237d"
+  integrity sha512-W5cMuH1ecSw2qHbZULRtXXMsQ6xbO3odMItzcUqIwMUSLDxU8MIh4nFYFzmVyj1VlpVbelantaCThT4073/lfw==
 
 "@jimp/bmp@^0.14.0":
   version "0.14.0"

@@ -1,5 +1,4 @@
 import path from "path";
-
 import gm from "gm";
 import sizeOf from "image-size";
 
@@ -56,7 +55,7 @@ memes = memes.filter((meme) =>
 // parse the images and generate thumbnails and aspect ratios
 for (const meme of memes) {
   const filepath = path.join(memeMediaFolder, meme.filename);
-  meme.thumbnail = 'img/dress-hanger.png';
+  meme.thumbnail = '';
   meme.aspectRatio = getAspectRatio(filepath);
 }
 

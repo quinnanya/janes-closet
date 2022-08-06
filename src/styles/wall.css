@@ -18,7 +18,7 @@ button {
   cursor: pointer;
 
   &:hover {
-    background-color: #555;
+    background-color: #b5a17e;
   }
 }
 
@@ -30,7 +30,7 @@ div.controls {
   position: relative;
 
   span.count {
-    background: #555;
+    background: #b5a17e;
     border-radius: 4px;
     display: grid;
     min-width: calc(9ch + 10px);
@@ -50,7 +50,7 @@ div.controls {
     display: inline-block;
     fill: transparent;
     height: 1.5rem;
-    stroke: white;
+    stroke: #9F7833;
     vertical-align: middle;
     width: 1.5rem;
   }
@@ -74,7 +74,7 @@ div.controls {
       font-size: 1rem;
       margin-bottom: -2px;
       outline-offset: -1px;
-      outline: 1px solid #555;
+      outline: 1px solid #FFD791;
       padding: 0;
       width: 0;
     }
@@ -82,7 +82,7 @@ div.controls {
 }
 
 button.show-filters.on {
-  background-color: #555;
+  background-color: #9C6615;
 }
 
 div.more-filters {
@@ -141,7 +141,7 @@ div.loader {
     &::after {
       bottom: 0;
       color: white;
-      content: "No memes found!\A\A(click here to reset)";
+      content: "Nothing found!\A\A(click here to reset)";
       display: grid;
       font-size: 40px;
       left: 0;
@@ -212,7 +212,7 @@ div.loader {
     }
 
     dt {
-      background-color: #555;
+      background-color: #b5a17e;
       border-radius: 4px;
       font-size: 0.8em;
       line-height: 1.8;
@@ -292,7 +292,7 @@ div.loader {
 
       div.search {
         button {
-          background-color: #555;
+          background-color: #b5a17e;
         }
 
         input {
@@ -330,7 +330,7 @@ div.loader {
         flex-grow: 1;
 
         button {
-          background-color: #555;
+          background-color: #b5a17e;
           border-radius: 4px 0 0 4px;
         }
 

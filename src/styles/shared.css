@@ -18,17 +18,17 @@ a {
     text-align: center;
 
     &:hover {
-      background-color: #555;
+      background-color: #b5a17e;
     }
   }
 }
 
 body {
-  background-color: #333;
-  color: white;
+  background-color: #413620;
+  color: #4c2b20;
   display: flex;
   flex-direction: column;
-  font-family: "Aguafina Script", sans-serif;
+  font-family: "Alex Brush", sans-serif;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -36,8 +36,8 @@ body {
 
 body > header {
   align-items: flex-start;
-  border-bottom: 5px solid #777;
-  border-top: 5px solid #777;
+  border-bottom: 5px solid #9C6615;
+  border-top: 5px solid #9C6615;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -48,7 +48,6 @@ body > header {
   h1 {
     align-items: center;
     display: flex;
-    font-variant-caps: petite-caps;
     font-weight: 300;
     gap: 0.5em;
     margin: 0;
@@ -63,10 +62,10 @@ body > header {
   }
 
   a {
-    color: white;
+    color: #9F7833;
 
     &:visited {
-      color: white;
+      color: #9F7833;
     }
 
     &:hover {
