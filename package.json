@@ -9,7 +9,7 @@
     "preview": "astro preview --experimental-integrations",
     "print-dataset": "node --experimental-fetch src/dataset.mjs",
     "update-media": "node --experimental-fetch src/fetch-data.mjs",
-    "gh-deploy": "CNAME=memes.sucho.org bin/astro-gh-deploy.sh"
+    "gh-deploy": "CNAME=janescloset.quinndombrowski.com bin/astro-gh-deploy.sh"
   },
   "devDependencies": {
     "astro": "1.0.0-rc.3",
