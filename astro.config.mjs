@@ -3,7 +3,7 @@ import { astroImageTools } from "astro-imagetools";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://memes.sucho.org/",
+  site: "https://janescloset.quinndombrowski.com/",
   trailingSlash: "always",
   integrations: [astroImageTools],
   vite: {
