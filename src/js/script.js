@@ -8,12 +8,10 @@ const showFiltersButton = document.querySelector("button.show-filters");
 const searchButton = document.querySelector("button.search");
 const searchInput = document.querySelector("div.search input");
 
-const filters = ["gender", "id", "type", "dateRange"];
+const filters = ["gender", "id", "type", "daterange"];
 const filterSelects = Object.fromEntries(
    filters.map((filter) => [filter, document.querySelector(`select.${filter}`)]),
  );
-
-// const filterSelects = [];
 
 const enableLazyLoading = (images, root) => {
   const imageObserver = new IntersectionObserver(
