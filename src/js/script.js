@@ -8,12 +8,12 @@ const showFiltersButton = document.querySelector("button.show-filters");
 const searchButton = document.querySelector("button.search");
 const searchInput = document.querySelector("div.search input");
 
-const filters = ["memeType", "person", "language", "country", "templateType"];
-// const filterSelects = Object.fromEntries(
-//   filters.map((filter) => [filter, document.querySelector(`select.${filter}`)]),
-// );
+const filters = ["gender", "id", "type", "dateRange"];
+const filterSelects = Object.fromEntries(
+   filters.map((filter) => [filter, document.querySelector(`select.${filter}`)]),
+ );
 
-const filterSelects = [];
+// const filterSelects = [];
 
 const enableLazyLoading = (images, root) => {
   const imageObserver = new IntersectionObserver(
