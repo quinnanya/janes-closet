@@ -84,7 +84,7 @@ const description =
           facet="type"></Filter>
         <Filter
           title="Filter by Date range"
-          selectClass="dateRange"
+          selectClass="daterange"
           placeHolder="-- Date Range --"
           facet="dateRange"></Filter>
       </div>
@@ -104,10 +104,10 @@ const description =
 
         return (
           <picture
-            data-meme-type={meme.type.join("|")}
+            data-type={meme.type.join("|")}
             data-gender={meme.gender.join("|")}
             data-id={meme.id.join("|")}
-            data-dateRange={meme.dateRange.join("|")}
+            data-daterange={meme.dateRange.join("|")}
             data-yearListed-type={meme.yearListed.join("|")}>
             <source srcset={srcsets.webp} type="image/webp" sizes="15vmax" />
             <img
