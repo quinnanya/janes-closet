@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@fontsource/alex-brush": "^4.5.4",
+	"@fontsource/anonymous-pro": "^4.5.4",
     "file-type": "^17.1.3"
   },
   "resolutions": {

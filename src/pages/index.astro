@@ -10,6 +10,7 @@ import Icon from "../components/Icon.astro";
 import { memes } from "../dataset.mjs";
 
 import "@fontsource/alex-brush/400.css";
+import "@fontsource/anonymous-pro/400.css"
 import suchoLogo32x32 from "../img/sucho-logo.32x32.png";
 import suchoLogo64x64 from "../img/sucho-logo.64x64.png";
 import dressicon from "../img/dress-hanger.png";
@@ -50,7 +51,7 @@ const description =
           <button class="search" title="Search"
             ><Icon name="search" />
           </button>
-          <input id="search-input" type="text" />
+          <input id="search-input" type="text" class="metadata" />
           <label for="search-input" class="visually-hidden">Search Term</label>
         </div>
         <button class="show-filters" title="Show Filters"
@@ -65,7 +66,7 @@ const description =
       </div>
 	  	  
 	  
-      <div class="more-filters">
+      <div class="more-filters metadata">
         <Filter
           title="Filter by Gender"
           selectClass="gender"
@@ -117,7 +118,7 @@ const description =
               alt={meme.id}
               sizes="15vmax"
             />
-            <dl>
+            <dl class="metadata">
               <dt>Type</dt>
               <dd>{meme.type || "---"}</dd>
               <dt>Gender</dt>
